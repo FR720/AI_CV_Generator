@@ -1,0 +1,25 @@
+cv_generation:
+  researcher_prompt: |
+    Analyze and enhance the professional information for a {position} position.
+    Focus on relevant experience and achievements.
+
+  formatter_prompt: |
+    Format the CV content professionally using markdown.
+    Ensure clear structure and readability.
+
+  reviewer_prompt: |
+    Review the CV for quality, ensuring:
+    - Professional language
+    - Proper formatting
+    - Relevant content
+    - Error-free text
+
+  suitability_prompt: |
+    Evaluate the CV for a {position} position using these criteria:
+    1. Professional Experience (30%): {experience_criteria}
+    2. Skills Match (25%): {skills_criteria}
+    3. Education Fit (20%): {education_criteria}
+    4. Formatting (15%): {formatting_criteria}
+    5. Professional Tone (10%): {tone_criteria}
+
+    Provide a score (1-100) and detailed feedback.

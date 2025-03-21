@@ -1,0 +1,15 @@
+research_task:
+  description: "Research and organize professional information"
+  expected_output: "Structured professional information in JSON format"
+
+format_task:
+  description: "Format CV content according to professional standards"
+  expected_output: "Professionally formatted CV in markdown"
+
+review_task:
+  description: "Review CV for quality and professional standards"
+  expected_output: "Reviewed and improved CV content"
+
+suitability_task:
+  description: "Evaluate CV suitability for the target position"
+  expected_output: "Suitability score and detailed feedback"
