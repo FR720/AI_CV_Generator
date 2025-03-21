@@ -11,7 +11,7 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, ListFlowable
 from io import BytesIO
 
-# ... rest of your imports and code ...
+
 
 # Load environment variables
 load_dotenv()
@@ -462,16 +462,7 @@ def main():
             except Exception as e:
                 st.error(f"❌ An error occurred: {str(e)}")
 
-        # Add footer
-        st.markdown("---")
-        st.markdown(
-            """
-            <div style='text-align: center'>
-                <p>Made with ❤️ using Streamlit and Google Gemini AI</p>
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
+ 
 
 if __name__ == "__main__":
     main()

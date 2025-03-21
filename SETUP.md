@@ -10,6 +10,9 @@
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
-cd cv-generator
+git clone https://github.com/FR720/AI_CV_Generator.git
+cd AI_CV_GENERATOR
+pip install -r requirements.txt
+streamlit run cv_generator.py
+
 ```
